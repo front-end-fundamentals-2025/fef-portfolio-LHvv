@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
 }
 
 
@@ -21,7 +20,6 @@ nav .logo {
     margin-right: 10rem;
     font-weight: bold;
     font-style: italic;
-    
 }
 
 
@@ -61,7 +59,7 @@ nav ul li a.active {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
     background: #f9f9f9;
     position: relative;
     margin: 5rem;
@@ -69,19 +67,9 @@ nav ul li a.active {
     border-radius: 1em;
 }
 
-/* Main Image */
-.main-image {
-    max-width: 50%;
-}
-
-.main-image img {
-    width: 100%;
-    border-radius: 50%;
-}
-
 /* Main Content*/
 .main-content {
-    max-width: 50%;
+    max-width: 60%;
     justify-content: center;
     margin: 10rem;
 }
