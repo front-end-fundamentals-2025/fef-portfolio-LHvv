@@ -57,6 +57,45 @@ nav ul li a.active {
 
 }
 
+.work-overview {
+    padding: 2rem;
+    text-align: center;
+}
+
+.work-overview h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project {
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
 
 
 
