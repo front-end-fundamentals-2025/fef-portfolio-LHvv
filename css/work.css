@@ -59,8 +59,11 @@ nav ul li a.active {
 
 /* Work Overview Grid */
 .work-overview {
-    padding: 2rem;
+    margin: 5rem;
+    padding: 4rem 2rem;
     text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 1em;
 }
 
 .work-overview h1 {
