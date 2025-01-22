@@ -57,6 +57,7 @@ nav ul li a.active {
 
 }
 
+/* Work Overview Grid */
 .work-overview {
     padding: 2rem;
     text-align: center;
@@ -147,7 +148,6 @@ nav ul li a.active {
 .hidden {
     display: none;
 }
-
 
 /* Footer */
 footer {
