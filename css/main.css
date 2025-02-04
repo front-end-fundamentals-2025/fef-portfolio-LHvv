@@ -6,6 +6,16 @@
 
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+        transform: translateY(30px); 
+    }
+    100% {
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
 
 /* Navbar  */
 nav {
@@ -68,6 +78,7 @@ nav ul li a.active {
     margin: 5rem;
     border: 1px solid #f9f9f9;
     border-radius: 1em;
+    
 }
 
 /* Main Image */
@@ -78,6 +89,7 @@ nav ul li a.active {
 .main-image img {
     width: 100%;
     border-radius: 50%;
+    animation: fadeIn 0.8s ease forwards; 
 }
 
 /* Main Content*/
@@ -85,6 +97,7 @@ nav ul li a.active {
     max-width: 50%;
     justify-content: center;
     margin: 10rem;
+    animation: fadeIn 0.8s ease forwards; 
 }
 
 .main-content h1 {
