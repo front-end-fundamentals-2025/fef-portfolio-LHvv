@@ -1,23 +1,14 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('toggle-theme');
+    const mainSection = document.querySelector('.main'); 
 
-var overlay = document.getElementById("overlay");
+    toggleButton.addEventListener('click', function() {
+        mainSection.classList.toggle('black-mode');
 
-//  Open the overlay and show a specific project
-function openOverlay(projectId) {
-    overlay.style.display = "flex";
-
-    var allProjects = document.querySelectorAll('.overlay-project');
-    allProjects.forEach(function(project) {
-        project.classList.add('hidden'); 
+        if (mainSection.classList.contains('black-mode')) {
+            toggleButton.textContent = 'Light Mode'; 
+        } else {
+            toggleButton.textContent = 'Dark Mode'; 
+        }
     });
-
-    var selectedProject = document.getElementById(projectId);
-    if (selectedProject) {
-        selectedProject.classList.remove('hidden'); 
-    }
-}
-
-// Close the overlay
-function closeOverlay() {
-    overlay.style.display = "none"; 
-}
-
+});
